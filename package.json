@@ -1,0 +1,23 @@
+{
+  "name": "react-chrome-extension",
+  "version": "1.0.0",
+  "description": "A simple React Chrome extension",
+  "main": "webpack.config.js",
+  "scripts": {
+    "build": "webpack"
+  },
+  "dependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.26.10",
+    "@babel/preset-env": "^7.26.9",
+    "@babel/preset-react": "^7.26.3",
+    "@babel/preset-typescript": "^7.26.0",
+    "babel-loader": "^8.4.1",
+    "typescript": "^5.8.2",
+    "webpack": "^5.50.0",
+    "webpack-cli": "^4.10.0"
+  }
+}
