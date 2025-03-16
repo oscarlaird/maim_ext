@@ -3,7 +3,9 @@ const path = require("path");
 module.exports = {
     entry: {
         popup: "./src/popup.jsx",
+        sidepanel: "./src/sidepanel.jsx",
         background: "./src/background.js",
+        content: "./src/content.js",
     },
     output: {
         filename: "[name].js",
