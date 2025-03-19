@@ -7,6 +7,7 @@
     "build": "webpack"
   },
   "dependencies": {
+    "@supabase/supabase-js": "^2.49.1",
     "react": "^18.0.0",
     "react-dom": "^18.0.0"
   },
